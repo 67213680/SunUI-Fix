@@ -43,8 +43,8 @@ DB.AuroraModules["Blizzard_ItemUpgradeUI"] = function()
 		end
 	end)
 
-	ItemUpgradeFrame.ItemButton.CurrencyIcon:SetTexCoord(.08, .92, .08, .92)
-	S.CreateBG(ItemUpgradeFrame.ItemButton.CurrencyIcon)
+	ItemUpgradeFrame.ItemButton.Cost.Icon:SetTexCoord(.08, .92, .08, .92)
+	S.CreateBG(ItemUpgradeFrame.ItemButton.Cost.Icon)
 
 	local currency = ItemUpgradeFrameMoneyFrame.Currency
 	currency.icon:Point("LEFT", currency.count, "RIGHT", 1, 0)
