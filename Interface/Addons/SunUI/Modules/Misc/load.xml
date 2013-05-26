@@ -33,4 +33,5 @@
 	
 	<Script file ="talenttaint.lua"/>
 	<Script file="SlotItemLevel.lua"/>
+	<Script file="death.lua"/>
 </Ui>
